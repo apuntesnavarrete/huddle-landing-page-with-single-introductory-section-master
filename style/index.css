@@ -56,12 +56,28 @@ body{
     width: 130px;
     height: 35px;
     font-size: 0.8rem;
+    box-shadow: 3px 5px 11px 0px rgba(0,0,0,0.75);
+
 }
 .footer{
     width: 100%;
     height: 100px;
     position: absolute;
     bottom: 0px;
+}
+.footer-social-media{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.fa-brands{
+    margin: 0 10px;
+    color: white;
+    border-radius: 50px;
+}
+.--fa-border-padding{
+    padding: 10px;
 }
 @media (max-width: 760px) {
     .main{
