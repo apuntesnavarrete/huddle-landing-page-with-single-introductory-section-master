@@ -130,3 +130,9 @@ body {
         
     }
 }
+@media (max-width: 320px) {
+    .secc-two-description {
+        margin: 8px 11px;
+        
+    }
+}
