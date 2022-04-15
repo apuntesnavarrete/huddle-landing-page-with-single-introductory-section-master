@@ -78,8 +78,9 @@ body {
 }
 
 .fa-brands {
+    cursor: pointer;
   margin: 0 10px;
-  color: white;
+  color: var(--tex-color);
   border-radius: 50px;
 }
 .--fa-border-padding {
