@@ -124,3 +124,9 @@ body {
   } 
 }
 
+@media (max-width: 340px) {
+    .main{
+        height: 580px;
+        
+    }
+}
