@@ -33,9 +33,11 @@ body {
   width: 90%;
 }
 .main-secc-two {
-  width: 40%;
+  width: 35%;
+
 }
 .secc-two_title {
+    line-height: 1.3;
   color: var(--tex-color);
   font-size: 1.9rem;
   margin: 40px 0px 0px 0px;
@@ -43,6 +45,8 @@ body {
 .secc-two-description {
   color: var(--tex-color);
   font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 4px 0px;
 }
 .secc-two_button {
   background-color: var(--tex-color);
