@@ -85,6 +85,11 @@ body {
 .--fa-border-padding {
   padding: 10px;
 }
+.fa-brands:hover{
+    color: var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta);
+    transition: all 0.5s;
+}
 @media (max-width: 760px) {
   body {
     background-image: url(../images/bg-mobile.svg);
