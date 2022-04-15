@@ -1,121 +1,116 @@
-:root{
-    
---Violet: hsl(257, 40%, 49%);
---Soft-Magenta: hsl(300, 69%, 71%);
---tex-color: white;
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+  --tex-color: white;
 }
 
-body{
-    background-color: var(--Violet);
-    min-height: 100vh;
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(../images/bg-desktop.svg);
-    background-size: 100%;
-
+body {
+  background-color: var(--Violet);
+  min-height: 100vh;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../images/bg-desktop.svg);
+  background-size: 100%;
 }
-.header{
-    width: 100%;
-    height: 100px;
+.header {
+  width: 100%;
+  height: 100px;
 }
-.header-logo{
-    width: 135px;
-    margin: 25px;
+.header-logo {
+  width: 135px;
+  margin: 25px;
 }
-.main{
-    width: 100%;
-    height: 400px;
-    display: flex;
+.main {
+  width: 100%;
+  height: 400px;
+  display: flex;
 }
-.main-secc-one{
-    width:50%;
-    padding: 20px;
+.main-secc-one {
+  width: 50%;
+  padding: 20px;
 }
-.secc-one-img{
-    width: 90%;
-
+.secc-one-img {
+  width: 90%;
 }
-.main-secc-two{
-    width:40%;
+.main-secc-two {
+  width: 40%;
 }
-.secc-two_title{
-    color: var(--tex-color);
-    font-size: 1.9rem;
-    margin:40px 0px 0px 0px;
+.secc-two_title {
+  color: var(--tex-color);
+  font-size: 1.9rem;
+  margin: 40px 0px 0px 0px;
 }
-.secc-two-description{
-    color: var(--tex-color);
-    font-size: 0.8rem;
+.secc-two-description {
+  color: var(--tex-color);
+  font-size: 0.8rem;
 }
-.secc-two_button{
-    background-color: var(--tex-color);
-    border-radius: 20px;
-    color: var(--Violet);
-    border: none;
-    font-family: 'Poppins', sans-serif;
-    width: 130px;
-    height: 35px;
-    font-size: 0.8rem;
-    box-shadow: 3px 5px 11px 0px rgba(0,0,0,0.75);
-
+.secc-two_button {
+  background-color: var(--tex-color);
+  border-radius: 20px;
+  color: var(--Violet);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  width: 130px;
+  height: 35px;
+  font-size: 0.8rem;
+  box-shadow: 3px 5px 11px 0px rgba(0, 0, 0, 0.75);
 }
-.secc-two_button:hover{
-    cursor: pointer;
-    background-color: var(--Soft-Magenta);
-    color: var(--tex-color);
-    transition: all 0.5s;
+.secc-two_button:hover {
+  cursor: pointer;
+  background-color: var(--Soft-Magenta);
+  color: var(--tex-color);
+  transition: all 0.5s;
 }
-.footer{
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0px;
+.footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
 }
-.footer-social-media{
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
+.footer-social-media {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
 }
 
-.fa-brands{
-    margin: 0 10px;
-    color: white;
-    border-radius: 50px;
+.fa-brands {
+  margin: 0 10px;
+  color: white;
+  border-radius: 50px;
 }
-.--fa-border-padding{
-    padding: 10px;
+.--fa-border-padding {
+  padding: 10px;
 }
 @media (max-width: 760px) {
-    body{
-        background-image: url(../images/bg-mobile.svg);
-        background-repeat: no-repeat;
-
-    }
-    .main{
-        height: 545px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .main-secc-one{
-        min-width: 300px;
-    }
-    .main-secc-two{
-        text-align: center;
-        width: 90%;
-    }
-    .secc-two_title{
-        font-size: 1.7rem;
-    }
-    .secc-two-description{
-        margin: 20px 30px;
-        line-height: 2;
-    }
-    .footer{
-        width: 100%;
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  .main {
+    height: 545px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-secc-one {
+    min-width: 300px;
+  }
+  .main-secc-two {
+    text-align: center;
+    width: 90%;
+  }
+  .secc-two_title {
+    font-size: 1.7rem;
+  }
+  .secc-two-description {
+    margin: 20px 30px;
+    line-height: 2;
+  }
+  .footer {
+    width: 100%;
     height: 100px;
     position: relative;
-    }
-    .footer-social-media{
-        justify-content: center;
-    }
   }
+  .footer-social-media {
+    justify-content: center;
+  }
+}
